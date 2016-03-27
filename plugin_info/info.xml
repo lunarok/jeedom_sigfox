@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+    <id>sigfox</id>
+    <name>Sigfox</name>
+    <licence>AGPL</licence>
+    <author>lunarok</author>
+    <require>2.2</require>
+    <category>communication</category>
+</info>
