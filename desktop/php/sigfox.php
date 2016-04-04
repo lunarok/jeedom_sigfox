@@ -125,25 +125,36 @@ $eqLogics = eqLogic::byType('sigfox');
                         <legend><i class="fa fa-info-circle"></i>  {{Configuration}}</legend>
 
                         <div class="form-group">
-                    		<label class="col-md-2 control-label">{{Adresse IP du sigfox}}</label>
+                    		<label class="col-md-2 control-label">{{Device ID}}</label>
                     		<div class="col-md-3">
-                    		 <input type="text" class="eqLogicAttr configuration form-control" data-l1key="configuration" data-l2key="addr" placeholder="adresse IP de la carte relais"/>
+                    		 <input type="text" class="eqLogicAttr configuration form-control" data-l1key="configuration" data-l2key="device" placeholder="ID unique Sigfox"/>
                     		</div>
                 	</div>
 
                   <div class="form-group">
-                  <label class="col-md-2 control-label">{{Utilisateur du sigfox}}</label>
+                  <label class="col-md-2 control-label">{{RSSI}}</label>
                   <div class="col-md-3">
-                   <input type="text" class="eqLogicAttr configuration form-control" data-l1key="configuration" data-l2key="user" placeholder="compte"/>
+                   <span class="eqLogicAttr configuration" data-l1key="configuration" data-l2key="rssi"></span> dBm
                   </div>
             </div>
 
             <div class="form-group">
-            <label class="col-md-2 control-label">{{Mot de passe du sigfox}}</label>
+            <label class="col-md-2 control-label">{{Dernière communication}}</label>
             <div class="col-md-3">
-             <input type="password" class="eqLogicAttr configuration form-control" data-l1key="configuration" data-l2key="pass" placeholder="mot de passe"/>
+             <span class="eqLogicAttr configuration" data-l1key="configuration" data-l2key="time"></span>
             </div>
       </div>
+
+      <div class="form-group">
+                  <label class="col-md-2 control-label">{{URL à saisir dans Sigfox pour le callback : }}</label>
+                    <div class="col-md-3">
+                  <?php
+                  $url  = config::byKey('externalProtocol') . config::byKey('externalAddr') . ':' . config::byKey('externalPort') . config::byKey('externalComplement') . '/plugins/sigfox/core/api/jeeSigfox.php?api=' . config::byKey('api') . '&id={device}&time={time}&signal={signal}&data={data}';
+                  echo $url;
+                  ?>
+
+                  </div>
+            </div>
 
                     </fieldset>
                 </form>

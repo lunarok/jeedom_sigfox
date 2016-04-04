@@ -1,9 +1,9 @@
-==== Doorbird, portier connecté
+==== Sigfox, réseau d'objets connectés
 
-Ce plugin permet d'interconnecter Jeedom avec un portier Doorbird.
+Sigfox est un réseau pour objets connectés. Il propose une communication par module radio avec une portée de plusieurs kms.
 
-Il permet deux types d'interconnexions :
+Cette communication à deux limites : 140 messages par jour en montant (+2 descendants) et une taille de 12bytes.
 
-- On peut être notifier des 3 types d'évènements détectés par Doorbird : mouvement, sonnerie, ouverture
+C'est peu, mais c'est assez pour les objets connectés surtout quand c'est des objets connectés sur batterie en pleine nature par exemple.
 
-- Jeedom peut déclencher l'ouverture de porte et l'éclairage
+Le plugin ici ne permet pas d'utiliser une puce Sigfox actuellement. Il permet de récupérer les valeurs de données Sigfox par callback.
