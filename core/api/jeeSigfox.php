@@ -19,10 +19,9 @@ require_once dirname(__FILE__) . "/../../../../core/php/core.inc.php";
 
 log::add('sigfox', 'debug', 'Event : ' . init('data') . ' pour ' . init('id'));
 
-if (init('api') != config::byKey('api') || config::byKey('api') == '') {
-	connection::failed();
-	echo 'Clef API non valide, vous n\'etes pas autorisé à effectuer cette action (jeeApi)';
-	die();
+if (!jeedom::apiAccess(init('apikey'), 'sigfox')) {
+ echo __('Clef API non valide, vous n\'êtes pas autorisé à effectuer cette action (sigfox)', __FILE__);
+ die();
 }
 
 $eqLogic = sigfox::byLogicalId(init('id'), 'sigfox');
