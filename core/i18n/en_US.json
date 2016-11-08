@@ -1,0 +1,36 @@
+{
+    "plugins\/sigfox\/desktop\/php\/sigfox.php": {
+        "Ajouter un équipement": "Ajouter un équipement",
+        "Rechercher": "Rechercher",
+        "Mes sigfox": "Mes sigfox",
+        "Sauvegarder": "Sauvegarder",
+        "Supprimer": "Supprimer",
+        "Configuration avancée": "Configuration avancée",
+        "Equipement": "Equipement",
+        "Commandes": "Commandes",
+        "Nom du sigfox": "Nom du sigfox",
+        "Nom de l'équipement sigfox": "Nom de l'équipement sigfox",
+        "Objet parent": "Objet parent",
+        "Aucun": "Aucun",
+        "Catégorie": "Catégorie",
+        "Activer": "Activer",
+        "Visible": "Visible",
+        "Commentaire": "Commentaire",
+        "Configuration": "Configuration",
+        "Device ID": "Device ID",
+        "RSSI": "RSSI",
+        "Dernière communication": "Dernière communication",
+        "URL à saisir dans Sigfox pour le callback : ": "URL à saisir dans Sigfox pour le callback : ",
+        "Nom": "Nom",
+        "Type": "Type",
+        "Valeur": "Valeur",
+        "Options": "Options"
+    },
+    "plugins\/sigfox\/desktop\/js\/sigfox.js": {
+        "Afficher": "Afficher",
+        "Tester": "Tester"
+    },
+    "plugins\/sigfox\/core\/class\/sigfox.class.php": {
+        "Data": "Data"
+    }
+}
