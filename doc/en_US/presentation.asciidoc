@@ -1,4 +1,4 @@
-==== Sigfox, réseau d'objets connectés
+==== Sigfox, connected objects network 
 
 Sigfox est un réseau pour objets connectés. Il propose une communication par module radio avec une portée de plusieurs kms.
 
