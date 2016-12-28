@@ -1,6 +1,6 @@
 ==== Sigfox, connected objects network 
 
-Sigfox est un réseau pour objets connectés. Il propose une communication par module radio avec une portée de plusieurs kms.
+Sigfox is a network for connected objects. It offers a communication by radio with a range of several kilometers.
 
 Cette communication à deux limites : 140 messages par jour en montant (+2 descendants) et une taille de 12bytes.
 
