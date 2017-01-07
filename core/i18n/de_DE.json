@@ -21,14 +21,14 @@
         "RSSI": "RSSI",
         "Dernière communication": "Letzte Verbindung",
         "URL à saisir dans Sigfox pour le callback : ": "URL à saisir dans Sigfox pour le callback : ",
-        "Nom": "Nom",
-        "Type": "Type",
-        "Valeur": "Valeur",
-        "Options": "Options"
+        "Nom": "Name",
+        "Type": "Typ",
+        "Valeur": "Wert",
+        "Options": "Optionen"
     },
     "plugins\/sigfox\/desktop\/js\/sigfox.js": {
-        "Afficher": "Afficher",
-        "Tester": "Tester"
+        "Afficher": "Anzeigen",
+        "Tester": "Testen"
     },
     "plugins\/sigfox\/core\/class\/sigfox.class.php": {
         "Data": "Data"
