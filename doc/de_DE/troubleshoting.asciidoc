@@ -1,5 +1,5 @@
 [panel,danger]
-.Je n'ai pas d'informations qui remontent
+.Ich bekomme keine Informationen, die zurückreichen
 --
 Il faut bien vérifier que les données bougent sur Sigfox et comparé les heures de remontées sur Jeedom et Sigfox
 --
