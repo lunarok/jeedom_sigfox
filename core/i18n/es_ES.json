@@ -1,36 +1,36 @@
 {
     "plugins\/sigfox\/desktop\/php\/sigfox.php": {
-        "Ajouter un équipement": "Ajouter un équipement",
-        "Rechercher": "Rechercher",
-        "Mes sigfox": "Mes sigfox",
-        "Sauvegarder": "Sauvegarder",
-        "Supprimer": "Supprimer",
-        "Configuration avancée": "Configuration avancée",
-        "Equipement": "Equipement",
-        "Commandes": "Commandes",
-        "Nom du sigfox": "Nom du sigfox",
-        "Nom de l'équipement sigfox": "Nom de l'équipement sigfox",
-        "Objet parent": "Objet parent",
-        "Aucun": "Aucun",
-        "Catégorie": "Catégorie",
-        "Activer": "Activer",
+        "Ajouter un équipement": "Agregar un dispositivo",
+        "Rechercher": "Buscar",
+        "Mes sigfox": "Mis sigfox",
+        "Sauvegarder": "Salvar",
+        "Supprimer": "Borrar",
+        "Configuration avancée": "Configuración avanzada",
+        "Equipement": "Dispositivo",
+        "Commandes": "Comandos",
+        "Nom du sigfox": "Nombre de sigfox",
+        "Nom de l'équipement sigfox": "Nombre del dispositivo sigfox",
+        "Objet parent": "Objeto padre",
+        "Aucun": "Ninguno",
+        "Catégorie": "Categoría",
+        "Activer": "Activar",
         "Visible": "Visible",
-        "Commentaire": "Commentaire",
-        "Configuration": "Configuration",
-        "Device ID": "Device ID",
+        "Commentaire": "Comentario",
+        "Configuration": "Configuración",
+        "Device ID": "ID Dispositivo",
         "RSSI": "RSSI",
-        "Dernière communication": "Dernière communication",
-        "URL à saisir dans Sigfox pour le callback : ": "URL à saisir dans Sigfox pour le callback : ",
-        "Nom": "Nom",
-        "Type": "Type",
-        "Valeur": "Valeur",
-        "Options": "Options"
+        "Dernière communication": "Última comunicación",
+        "URL à saisir dans Sigfox pour le callback : ": "URL para entrar en Sigfox para la devolución de llamada :",
+        "Nom": "Nombre",
+        "Type": "Tipo",
+        "Valeur": "Valor",
+        "Options": "Opciones"
     },
     "plugins\/sigfox\/desktop\/js\/sigfox.js": {
-        "Afficher": "Afficher",
-        "Tester": "Tester"
+        "Afficher": "Mostrar",
+        "Tester": "Prueba"
     },
     "plugins\/sigfox\/core\/class\/sigfox.class.php": {
-        "Data": "Data"
+        "Data": "Datos"
     }
 }
