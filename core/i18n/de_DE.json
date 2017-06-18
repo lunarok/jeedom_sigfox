@@ -31,6 +31,6 @@
         "Tester": "Testen"
     },
     "plugins\/sigfox\/core\/class\/sigfox.class.php": {
-        "Data": "Data"
+        "Data": "Daten"
     }
 }
