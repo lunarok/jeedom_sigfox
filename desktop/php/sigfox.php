@@ -152,7 +152,7 @@ $eqLogics = eqLogic::byType('sigfox');
                   <label class="col-sm-3 control-label">{{URL à saisir dans Sigfox pour le callback : }}</label>
                     <div class="col-sm-3">
                   <?php
-                  $url  = config::byKey('externalProtocol') . config::byKey('externalAddr') . ':' . config::byKey('externalPort') . config::byKey('externalComplement') . '/plugins/sigfox/core/api/jeeSigfox.php?api=' . jeedom::getApiKey('apidou') . '&id={device}&time={time}&signal={signal}&data={data}';
+                  $url  = config::byKey('externalProtocol') . config::byKey('externalAddr') . ':' . config::byKey('externalPort') . config::byKey('externalComplement') . '/plugins/sigfox/core/api/jeeSigfox.php?api=' . jeedom::getApiKey('sigfox') . '&id={device}&time={time}&rssi={rssi}&data={data}';
                   echo $url;
                   ?>
 
