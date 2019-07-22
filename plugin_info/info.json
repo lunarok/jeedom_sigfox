@@ -4,7 +4,7 @@
 	"description" : "Sigfox est un protocole pour les objets connectés. Ne nécessite pas de connexion internet et ayant une portée de plusieurs kms pour émettre à une antenne, c'est le protocole idéal pour de nombreux domaines.Ce plugin permet à Jeedom de récupérer les infos de Sigfox directement sur réception en callback. Il ne permet pas d'envoyer des données à Sigfox actuellement (pas possible d'utiliser une carte d'extension par exemple)",
 	"licence" : "AGPL",
 	"author" : "lunarok",
-	"require" : "2.4",
+	"require" : "3.3.24",
 	"category" : "communication",
 	"language" : ["fr_FR","en_US"],
 	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"],
