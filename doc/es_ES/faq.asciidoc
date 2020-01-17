@@ -1,5 +1,0 @@
-[panel,primary]
-.Est-ce que le plugin s'appuie sur des API tiers ?
---
-Oui le plugin est appelé par Sigfox sur réception de données
---

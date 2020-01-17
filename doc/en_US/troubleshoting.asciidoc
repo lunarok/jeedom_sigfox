@@ -1,5 +1,0 @@
-[panel,danger]
-. I don't have any information going back
---
-Il faut bien vérifier que les données bougent sur Sigfox et comparé les heures de remontées sur Jeedom et Sigfox
---

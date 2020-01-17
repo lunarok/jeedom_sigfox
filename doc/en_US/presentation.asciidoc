@@ -1,9 +1,0 @@
-==== Sigfox, connected objects network 
-
-Sigfox is a network for connected objects. It offers a communication by radio with a range of several kilometers.
-
-Cette communication à deux limites : 140 messages par jour en montant (+2 descendants) et une taille de 12bytes.
-
-C'est peu, mais c'est assez pour les objets connectés surtout quand c'est des objets connectés sur batterie en pleine nature par exemple.
-
-Le plugin ici ne permet pas d'utiliser une puce Sigfox actuellement. Il permet de récupérer les valeurs de données Sigfox par callback.

@@ -1,9 +1,0 @@
-==== The plugin configuration
-
-The plugin does not have general configuration.
-
-Il faut ajouter un équipement par donnée Sigfox à récupérer.
-
-Sur l'équipement, on doit saisir l'identifiant unique Sigfox. L'adresse à saisir dans Sigfox est également présente.
-
-Une fois l'identifiant enregistré, on copie l'adresse fournit par Jeedom dans la page de configuration Sigfox pour le callback.
